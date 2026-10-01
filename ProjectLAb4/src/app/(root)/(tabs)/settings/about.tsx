@@ -1,17 +1,10 @@
 import { router } from "expo-router";
 import { Text, TouchableOpacity, View } from "react-native";
 
-/** Change these two to your own app name and name. */
+
 const APP_NAME = "Crib";
 const DEVELOPER_NAME = "Your Name";
 
-/**
- * Pushed on top of Settings -> /settings/about
- *
- * Because it was pushed onto the Settings Stack, the header already has a
- * native back arrow; the button below is the explicit way back that the
- * exercise asks for.
- */
 export default function AboutScreen() {
   return (
     <View className="flex-1 bg-gray-50 p-4">
